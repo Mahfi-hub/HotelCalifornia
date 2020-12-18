@@ -183,3 +183,38 @@ section {
   margin-left: 0.5rem;
   opacity: 0.75;
 }
+/* Booking section styles */
+.booking {
+  background-image: var(--gradient-color);
+}
+.input-group {
+  margin-bottom: 1.5rem;
+}
+.input-label {
+  display: block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+.input,
+.options{
+  outline: none;
+  border: none;
+  width: 100%;
+  min-height: 4rem;
+  color: #a5a5a5;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-btn{
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+.btn-purple{
+  background-color: var(--purple-solid);
+}
+.btn-purple:hover{
+  background-color: var(--purple-light);
+}
